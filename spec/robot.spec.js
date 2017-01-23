@@ -68,6 +68,7 @@ describe("Robot", function() {
   });
 
   it("robot coordinates", function() {
+    
     robot.at(3, 0);
     expect(robot.coordinates).toEqual([3,0]);
   });
